@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets - 절대 GitHub에 올리면 안 됩니다!
+.env
+
+# IDE/Editor specific
+.idea/
+.vscode/
+
+# OS specific
+.DS_Store
+
+# Specific files to ignore
+new_idea.md
+new_idea2.md
+error message.txt
+push.txt
+
+# Folders to ignore
+examples/
+test/
