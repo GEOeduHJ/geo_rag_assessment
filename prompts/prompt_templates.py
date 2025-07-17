@@ -28,6 +28,7 @@ def get_grading_prompt(question_type: str, rubric: list, student_answer: str, re
 3. 학생 답안에 대한 교과 내용적인 피드백을 제공해주세요.
 4. 학생 답안이 '의사 응답(bluffing)'인지 여부를 판단하고, 그렇다면 그 이유를 간략하게 설명해주세요. 의사 응답은 내용 없이 길게 늘어뜨리거나, 관련 없는 내용을 포함하는 경우를 의미합니다.
 5. 각 주요 채점 요소별로 점수를 부여한 근거를 상세하게 작성해주세요.
+6. **반드시 아래 `format_instructions`에 명시된 JSON 형식에 맞춰 `채점결과`와 `피드백` 두 가지 최상위 키를 모두 포함하여 응답을 생성해주세요.**
 {format_instructions}
 
 --- 문항 유형 ---
