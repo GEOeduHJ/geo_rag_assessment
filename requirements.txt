@@ -17,3 +17,5 @@ langchain-groq
 pypdf
 langchain-huggingface
 accelerate
+Pillow
+langgraph

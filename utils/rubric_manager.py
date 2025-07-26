@@ -8,7 +8,8 @@ def get_default_rubric():
             'sub_criteria': [
                 {'score': 2, 'content': '동해안의 해안선 특징(단조로움)을 정확히 서술함.'},
                 {'score': 2, 'content': '해안선 형성의 주요 원인(경동성 요곡 운동)을 언급함.'},
-                {'score': 1, 'content': '융기, 침강과 같은 지각 변동과 해안선 형성의 관계를 이해하고 있음.'}
+                {'score': 1, 'content': '융기, 침강과 같은 지각 변동과 해안선 형성의 관계를 이해하고 있음.'},
+                {'score': 1, 'content': '관련된 지리적 현상(예: 하천의 감입곡류)을 함께 설명함.'}
             ]
         },
         {
@@ -16,7 +17,17 @@ def get_default_rubric():
             'sub_criteria': [
                 {'score': 2, 'content': '해안단구, 석호 등 동해안의 대표적인 지형을 올바르게 제시함.'},
                 {'score': 2, 'content': '리아스식 해안, 갯벌 등 서해안의 특징과 비교하여 설명함.'},
-                {'score': 1, 'content': '지리 용어를 적절하고 정확하게 사용함.'}
+                {'score': 1, 'content': '지리 용어를 적절하고 정확하게 사용함.'},
+                {'score': 1, 'content': '제시한 지형의 형성 과정을 간략하게 설명함.'}
+            ]
+        },
+        {
+            'main_criterion': '논리적 서술 및 표현력',
+            'sub_criteria': [
+                {'score': 1, 'content': '답안의 구조가 체계적이고 논리적임.'},
+                {'score': 1, 'content': '문장이 명확하고 이해하기 쉽게 작성됨.'},
+                {'score': 1, 'content': '제시된 분량이나 조건에 맞게 서술함.'},
+                {'score': 1, 'content': '자신만의 언어로 창의적으로 표현함.'}
             ]
         }
     ]

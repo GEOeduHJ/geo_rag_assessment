@@ -14,10 +14,9 @@ __pycache__/
 .DS_Store
 
 # Specific files to ignore
-new_idea.md
-new_idea2.md
-error message.txt
+error_check.txt
 push.txt
+task_today.txt
 
 # Folders to ignore
 examples/

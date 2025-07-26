@@ -8,7 +8,7 @@ def load_student_answers(uploaded_file):
     if uploaded_file is not None:
         try:
             df = pd.read_excel(uploaded_file)
-            required_columns = ["이름", "학년", "반", "번호", "답안"]
+            required_columns = ["이름", "학년", "반", "번호"]
             if not all(col in df.columns for col in required_columns):
                 st.error(f"필수 컬럼이 누락되었습니다. 다음 컬럼이 필요합니다: {', '.join(required_columns)}")
                 return None
